@@ -24,8 +24,8 @@ const Feature = () =>{
                 <h1 className="text-xs md:text-sm text-center">Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit.</h1>
         
         </div>
-        <div className="px-5 pt-10 w-full md:flex md:px-16 md:gap-7 lg:flex lg:px-20 lg:gap-10 items-center justify-center">
-            <div className="flex-col space-y-6 md:space-y-16 lg:space-y-28">
+        <div className="px-5 pt-10 w-full md:flex md:px-8 md:gap-7 lg:flex lg:px-20 lg:gap-0 items-center justify-center">
+            <div className=" space-y-6 md:space-y-16 lg:space-y-28">
                 <div>
                     <div className="flex justify-center md:justify-end">
                         <img src={feed} alt="" />
@@ -41,22 +41,22 @@ const Feature = () =>{
                     <h1 className="text-xs text-white text-center md:text-right">Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit.</h1>
                 </div>
             </div>
-            <div className='flex justify-center'>
-                <img src={phone} alt='' className="w-full" />
+            <div className='flex justify-center p-0 m-0'>
+                <img src={phone} alt='' className="" />
             </div>
-            <div className="flex-col space-y-6 md:space-y-16 lg:space-y-28">
+            <div className=" space-y-6 md:space-y-16 lg:space-y-28">
                 <div>
-                    <div className="flex justify-center md:justify-left ">
+                    <div className="flex justify-center md:justify-start ">
                         <img src={data} alt="" />
                     </div>
-                    <h1 className="text-xl text-center md:text-left  py-3">ISO & ANDROID VERSION</h1>
-                    <h1 className="text-xs text-white ">Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit.</h1>
+                    <h1 className="text-xl text-center md:text-left lg:text-left  py-3">ISO & ANDROID VERSION</h1>
+                    <h1 className="text-xs text-white text-center md:text-left ">Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit.</h1>
                 </div>
                 <div>
-                    <div className="flex justify-center md:justify-left ">
+                    <div className="flex justify-center md:justify-start ">
                         <img src={eye} alt="" />
                     </div>
-                    <h1 className="text-xl text-center md:text-right  py-3">RECTINA READY GRAPHICS</h1>
+                    <h1 className="text-xl text-center md:text-left  py-3">RECTINA READY GRAPHICS</h1>
                     <h1 className="text-xs text-white text-center md:text-left">Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit.</h1>
                 </div>
                 

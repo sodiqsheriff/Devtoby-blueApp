@@ -15,7 +15,7 @@ const About = () => {
      </h1>
     </div>
      
-     <div className="px-5 pt-7 pb-16 mb-10 md:flex gap-10 md:px-16 md:pt-10 md:pb-24 md:mb-16 lg:flex lg:px-20 lg:pt-12 lg:pb-28 lg:mb-16 lg:gap-12 lg:items-center w-full">
+     <div className="px-5 pt-7 pb-16 mb-10 md:flex gap-10 md:px-10 md:pt-10 md:pb-24 md:mb-16 lg:flex lg:px-20 lg:pt-12 lg:pb-28 lg:mb-16 lg:gap-12 lg:items-center w-full">
       <div className="md:w-1/2">
         <img src={android} alt="w-full" />
       </div>
