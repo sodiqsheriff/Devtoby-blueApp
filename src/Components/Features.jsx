@@ -24,8 +24,8 @@ const Feature = () =>{
                 <h1 className="text-xs md:text-sm text-center">Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit.</h1>
         
         </div>
-        <div className="px-5 pt-10 w-full md:flex md:px-8 md:gap-7 lg:flex lg:px-20 lg:gap-0 items-center justify-center">
-            <div className=" space-y-6 md:space-y-16 lg:space-y-28">
+        <div className="px-5 pt-10 w-full md:flex md:px-8  lg:flex lg:px-20 lg:gap-0 items-center justify-between">
+            <div className=" space-y-6 md:space-y-16 lg:space-y-28 md:1/3">
                 <div>
                     <div className="flex justify-center md:justify-end">
                         <img src={feed} alt="" />
@@ -41,8 +41,8 @@ const Feature = () =>{
                     <h1 className="text-xs text-white text-center md:text-right">Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit.</h1>
                 </div>
             </div>
-            <div className='flex justify-center p-0 m-0'>
-                <img src={phone} alt='' className="" />
+            <div className='w-full md:w-1/2'>
+                <img src={phone} alt='' className="w-4/5" />
             </div>
             <div className=" space-y-6 md:space-y-16 lg:space-y-28">
                 <div>

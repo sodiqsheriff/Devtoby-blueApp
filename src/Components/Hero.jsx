@@ -92,8 +92,8 @@ const hero = () => {
         </div>
        
     </div>
-    <div className="ps-28 md:w-1/2 md:ps-0 lg:ps-0">
-        <img src={mobile} alt="mobile" className=''/>
+    <div className="w-full md:w-1/2">
+        <img src={mobile} alt="mobile" className='w-full md:w-4/5'/>
     </div>
    </div>
      </div>

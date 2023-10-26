@@ -1,12 +1,13 @@
-import image1 from './assets/000.png'
+
 import Herosection from './Components/Hero';
 import About from './Components/About';
 import Feature from './Components/Features';
 import Checkpage from './Components/Checkout';
+
 import './App.css'
 
 import Image from './Components/Imageslider';
-
+import Down from './Components/Download';
 const images = [
   'image1',
   'image2',
@@ -26,6 +27,7 @@ const App = () => {
     <Feature />
     <Checkpage />
     <Image images={images} />
+    <Down />
    </div>
   )
 }
