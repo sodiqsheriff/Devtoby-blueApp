@@ -1,21 +1,19 @@
+import React from 'react';
 
 import Herosection from './Components/Hero';
 import About from './Components/About';
 import Feature from './Components/Features';
 import Checkpage from './Components/Checkout';
+import Down from './Components/Download';
+import Video from './Components/Video';
+import Team from './Components/Team';
+import Customer from './Components/Customer';
+import Blog from './Components/Blog';
+import Footer from './Components/Footer';
 
 import './App.css'
 
-import Image from './Components/Imageslider';
-import Down from './Components/Download';
-const images = [
-  'image1',
-  'image2',
-  'image3',
-  'image4',
-  //'image5.png',
-  // Add more image URLs as needed
-];
+
 
 const App = () => {
   
@@ -26,10 +24,14 @@ const App = () => {
     <About / >
     <Feature />
     <Checkpage />
-    <Image images={images} />
     <Down />
+    <Video />
+    <Team />
+    <Customer />
+    <Blog />
+    <Footer />
    </div>
   )
 }
 
-export default App
+export default App;
